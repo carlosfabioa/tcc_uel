@@ -1,8 +1,6 @@
 import cv2 as cv
 import os
 
-origem = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\coloridas\.'
-destino = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\cinzas'
 
 def converteCinza(origem, destino):
     name = []
@@ -20,8 +18,8 @@ def converteCinza(origem, destino):
         os.chdir(destino)
         cv.imwrite(i, imgCinza)
 
-
-
+origem = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\coloridas\.'
+destino = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\cinzas'
 
 converteCinza(origem, destino)
 
