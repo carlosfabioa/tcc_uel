@@ -18,8 +18,8 @@ def converteCinza(origem, destino):
         os.chdir(destino)
         cv.imwrite(i, imgCinza)
 
-origem = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\coloridas\.'
-destino = r'C:\Users\carlo\OneDrive\Documents\GitHub\tcc_uel\cinzas'
+origem = 'coloridas\.'
+destino = '\cinzas'
 
 converteCinza(origem, destino)
 
